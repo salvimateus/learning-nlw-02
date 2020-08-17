@@ -3,44 +3,35 @@
     height: 100vh;
 }
 
-.page-header {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--color-primary);
+#search-teachers {
+    margin-top: 3.2rem;
 }
 
-.page-header .top-bar-container {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#search-teachers label {
     color: var(--color-text-in-primary);
-    padding: 1.6rem 0;
 }
 
-.page-header .top-bar-container > img {
-    height: 1.6rem;
+#search-teachers button {
+    align-items: center;
+    background: var(--color-secundary);
+    border-radius: .8rem;
+    border: none;
+    color: var(--color-button-text);
+    cursor: pointer;
+    display: flex;
+    font: 700 1.6rem Archivo;
+    height: 5.6rem;
+    justify-content: center;
+    margin-top: 3.2rem;
+    transition: background-color 0.2s;
+    width: 100%;
 }
 
-.page-header .top-bar-container a {
-    height: 3.2rem;
-    transition: opacity .2s;
+#search-teachers button:hover {
+    background: var(--color-secundary-dark);
 }
 
-.page-header .top-bar-container a:hover {
-    opacity: .6;
-}
-
-.page-header .header-content {
-    width: 90%;
-    margin: 0 auto;
-    position: relative;
+#page-teacher-list main {
     margin: 3.2rem auto;
-}
-
-.page-header .header-content strong {
-    font: 700 3.6rem Archivo;
-    line-height: 4.2rem;
-    color: var(--color-title-in-primary);
+    width: 90%;
 }
