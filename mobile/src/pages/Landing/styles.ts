@@ -7,6 +7,61 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         padding: 40,
     },
+
+    banner: {
+        width: '100%',
+        resizeMode: 'contain', // manter proporção, "height auto"
+    },
+
+    title: {
+        fontFamily: 'Poppins_400Regular',
+        color: '#fff',
+        fontSize: 20,
+        lineHeight: 30,
+        marginTop: 80,
+    },
+
+    titleBold: {
+        fontFamily: 'Poppins_600SemiBold',
+    },
+
+    buttonsContainer: {
+        flexDirection: 'row',
+        marginTop: 40,
+        justifyContent: 'space-between'
+    },
+
+    button: {
+        backgroundColor: '#333',
+        height: 150,
+        width: '48%',
+        borderRadius: 8,
+        padding: 24,
+        justifyContent: 'space-between',
+    },
+
+    buttonPrimary: {
+        backgroundColor: '#9871f5',
+    },
+
+    buttonSecondary: {
+        backgroundColor: '#04d361',
+    },
+
+    buttonText: {
+        fontFamily: 'Archivo_700Bold',
+        fontSize: 20,
+        color: '#fff',
+    },
+
+    totalConnections: {
+        fontFamily: 'Poppins_400Regular',
+        color: '#d4c2ff',
+        fontSize: 12,
+        lineHeight: 20,
+        maxWidth: 140,
+        marginTop: 40,
+    },
 })
 
 export default styles
